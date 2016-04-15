@@ -16,3 +16,13 @@ deployment:
 test:
   override:    
     - mocha
+
+
+deployment:
+  production:
+    branch: production
+    commands:
+      - ./deploy_prod.sh
+  
+      
+      
